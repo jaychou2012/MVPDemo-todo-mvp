@@ -9,7 +9,16 @@
 原版的todo-mvp用的是sqlite，涉及到了RoomDatabase。让注重mvp阅读人看起来很乱，容易分散重点。所以我这里使用sharedpreferences替换了sqlite的数据增删改查。
 整体说来，官方的例子选择的还算容易理解，实现的功能就是列表展示本地存储的任务Task数据。有增加一条、删除一条、获取一条、获取全部任务的功能。
 
-下面的图是我更改后的大概结构：
+下面的图是我更改后的大概结构：  
+
 ![](https://github.com/jaychou2012/MVPDemo-todo-mvp/blob/master/mvp.png 'mvp')
+
+MVP的整体架构分析：  
+
+![](https://github.com/jaychou2012/MVPDemo-todo-mvp/blob/master/20180402214545.png 'mvp')  
+
+官方的demo基本上是按照功能分类的，把很多类都混在一起了，我这里的结构整理，相对清晰一些。  
+
+
 
 
