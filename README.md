@@ -39,6 +39,12 @@ Presenter，Presenter的业务真正实现，监听用户UI操作，回调和更
 ```  
 UI层呢，Activity里使用了Fragment，Fragment来实现Constract的view的定义的相关操作view的方法接口。然后在回调的方法里操作数据和布局等等。  
 
+![](https://github.com/jaychou2012/MVPDemo-todo-mvp/blob/master/Screenshot_20180402-213019.png 'mvp')    
+![](https://github.com/jaychou2012/MVPDemo-todo-mvp/blob/master/Screenshot_20180402-213029.png 'mvp')
+
+实现的功能很简单，增删改查，不过展示mvp的这种架构流程还是可以。  
+
+这个比官方版更容易读懂更容易理解，欢迎大家体验学习。  
 
 
 
