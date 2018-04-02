@@ -2,7 +2,7 @@
 
 简单介绍下，这个todo-mvp的google原版是：
 
-[googlssamples/todo-mvp](https://github.com/googlesamples/android-architecture/tree/todo-mvp/)
+[googlesamples/todo-mvp](https://github.com/googlesamples/android-architecture/tree/todo-mvp/)
 
 这个Demo演示了谷歌github例子的Model-View-Presenter(MVP)的架构设计，不过说实话，官方的demo写的有点乱，类命名、方法命名等很不清晰。所以自己利用了一上午的时间从头到尾分析阅读了todo-mvp的demo源码，分析梳理流程，总体来说还好，下午的时间就按照这个mvp的架构规范重新写了一个版本的todo-mvp。
 
@@ -44,7 +44,10 @@ UI层呢，Activity里使用了Fragment，Fragment来实现Constract的view的�
 
 实现的功能很简单，增删改查，不过展示mvp的这种架构流程还是可以。  
 
-这个比官方版更容易读懂更容易理解，欢迎大家体验学习。  
+这个比官方版更容易读懂更容易理解，欢迎大家体验学习。  
+后续在csdn博客上写一篇mvp的分析使用文章，敬请期待...  
+
+
 
 
 
