@@ -19,6 +19,27 @@ MVP的整体架构分析：
 
 官方的demo基本上是按照功能分类的，把很多类都混在一起了，我这里的结构整理，相对清晰一些。  
 
+Model里有实体Task，实体操作的相关定义的方法TaskDao，相关定义方法的实现类TaskDaoImpl。
+
+Contract，它的作用就是定义View的接口方法，用于view中回调使用和Presenter的接口方法，用于定义业务操作逻辑，然后将view和presenter关联起来。
+
+Presenter，Presenter的业务真正实现，监听用户UI操作，回调和更新数据给UI。实现了Contract里的presenter，把操作view和操作model关联起来。
+例如：
+```
+    /**
+     * 添加数据操作
+     */
+    @Override
+    public void addNewTask(@NonNull Task task) {
+        //操作Model
+        taskDaoImpl.saveTask(task);
+        //操作View
+        tasksView.showAddTaskOk(task);
+    }
+```  
+UI层呢，Activity里使用了Fragment，Fragment来实现Constract的view的定义的相关操作view的方法接口。然后在回调的方法里操作数据和布局等等。  
+
+
 
 
 
