@@ -47,8 +47,9 @@ UI层呢，Activity里使用了Fragment，Fragment来实现Constract的view的�
 这个比官方版更容易读懂更容易理解，欢迎大家体验学习。  
 
 后续在csdn博客上写一篇mvp的分析使用文章，敬请期待...  
+[Android MVP模式介绍和讲解（CSDN博客文章）](https://blog.csdn.net/jay100500/article/details/79829489)  
 
-
+![](https://github.com/jaychou2012/MVPDemo-todo-mvp/blob/master/20170830212011034.png 'mvp') 
 
 
 
